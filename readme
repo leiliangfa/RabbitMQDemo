@@ -1,0 +1,18 @@
+1、Windows下载安装erlang
+下载地址：http://www.erlang.org/download/otp_win64_R15B.exe，双击安装
+配置环境变量ERLANG_HOME指向安装目录如D:\Program Files\erl5.9
+
+2、Windows下载安装RabbitMQ
+下载地址：http://www.rabbitmq.com/releases/rabbitmq-server/v3.3.4/rabbitmq-server-3.3.4.exe ，双击安装
+
+3、下载rabbit-client.jar
+下载地址：http://www.rabbitmq.com/releases/rabbitmq-java-client/v3.4.3/rabbitmq-java-client-bin-3.4.3.zip
+
+4、启动RabbitMQ
+运行RabbitMQ安装根目录/sbin/rabbitmq-server.bat
+
+5、生产消息
+运行MqProducer.java
+
+6、消费消息
+运行MqConsumer.java
